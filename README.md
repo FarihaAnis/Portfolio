@@ -6,6 +6,11 @@
 - Master of Science (Data Science) | University Technology Malaysia (_March 2023 - ongoing_)
 - Bachelor of Engineering (Chemical) (Honours) | The University of Adelaide (_Feb 2014 - Dec 2016_)
 
+## Projects
+
+
+
+
 ## Work Experience
 **Production Associate @ Biocon Sdn. Bhd. (_2020 - 2022_)**
 - Ensure batch records are reviewed and closed in compliance with procedures for product release.
@@ -26,3 +31,6 @@
 - Coordinated learning sessions and company’s public programs of Working at Height, Chemical Safety, Hazard Identification, Occupational Safety & Health Committee and Neuro-Linguistic Programming.
 - Responsible to engage in recruiting potential customers through phone call and social media posting.
 - Engaged with Neuro-Linguistic Programming (NLP) to enhance communication skills through visual, auditory and kinaesthetic approaches.
+
+
+
