@@ -12,7 +12,7 @@
 This data cleaning project aims to prepare 'Data Science Job Posting on Glassdoor' dataset, which was obtained from Kaggle, for further analysis. The dataset contains information about job postings, including job titles, salaries, company ratings, locations, and other attributes. The dataset requires extensive data cleaning, which includes addressing issues such as duplicating values, standardizing job titles, extracting relevant information from descriptions, cleaning salary data, and more. The cleaned dataset will serve as the foundation for subsequent data analysis and modeling tasks in the field of data science and human resources.
 
 ## Work Experience
-**Production Associate @ Biocon Sdn. Bhd. (_2020 - 2022_)**
+**Production Associate @ Biocon Sdn. Bhd. (_2020 - 2023_)**
 - Ensure batch records are reviewed and closed in compliance with procedures for product release.
 - Investigate and address any non-conformances found during batch record review.
 - Review and manage documentation for introducing insulins into new markets.
