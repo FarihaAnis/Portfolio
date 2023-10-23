@@ -7,7 +7,7 @@
 - Bachelor of Engineering (Chemical) (Honours) | The University of Adelaide (_Feb 2014 - Dec 2016_)
 
 ## Projects
-[Project 1: Data Preparation and Cleaning - Data Science Job Posting on Glassdoor](https://github.com/FarihaAnis/Portfolio/blob/7e023eb81314a360fd7ec641e796cd23621644e8/Cleaning%20of%20'Data%20Science%20Job%20Posting%20on%20Glassdoor'%20Dataset.ipynb)
+[Project 1: Data Preparation and Cleaning - Data Science Job Posting on Glassdoor](https://github.com/FarihaAnis/Portfolio/blob/103e481535188b60106a93a885fccb6d5d4a95f6/Data%20Preparation%20and%20Cleaning%20-%20Data%20Science%20Job%20Posting%20on%20Glassdoor.ipynb)
 
 This data cleaning project aims to prepare 'Data Science Job Posting on Glassdoor' dataset, which was obtained from Kaggle, for further analysis. The dataset contains information about job postings, including job titles, salaries, company ratings, locations, and other attributes. The dataset requires extensive data cleaning, which includes addressing issues such as duplicating values, standardizing job titles, extracting relevant information from descriptions, cleaning salary data, and more. The cleaned dataset will serve as the foundation for subsequent data analysis and modeling tasks in the field of data science and human resources.
 
