@@ -1,13 +1,13 @@
 # Data Engineer
 
-#### Technical Skills: Python, R, SQL, MongoDB, PowerBi
+#### Technical Skills: Python, R, SQL, MongoDB, PowerBi, Alteryx
 
 ## Education
 - Master of Science (Data Science) | University Technology Malaysia (_March 2023 - ongoing_)
 - Bachelor of Engineering (Chemical) (Honours) | The University of Adelaide (_Feb 2014 - Dec 2016_)
 
 ## Projects
-[Project 1: Data Preparation and Cleaning - Data Science Job Posting on Glassdoor](https://github.com/FarihaAnis/Portfolio/blob/103e481535188b60106a93a885fccb6d5d4a95f6/Data%20Preparation%20and%20Cleaning%20-%20Data%20Science%20Job%20Posting%20on%20Glassdoor.ipynb)
+[Project 1: FIFA21 Data Cleaning & EDA](https://github.com/FarihaAnis/Portfolio/blob/main/FIFA21%20Data%20Cleaning%20%26%20EDA.ipynb)
 
 The FIFA21 dataset, sourced from Kaggle, provides comprehensive player information from the FIFA series soccer simulation video game released by Electronic Arts in October 2020. With data on 18,980 players and 77 attributes including player ID, age, nationality, club affiliation, and performance metrics, this dataset serves as a valuable resource for in-depth analysis. In this report, we will conduct an Exploratory Data Analysis (EDA) focusing on various data types, address issues like missing data and outliers, and perform necessary data preprocessing steps to unlock valuable insights within the virtual soccer world of FIFA21.
 
