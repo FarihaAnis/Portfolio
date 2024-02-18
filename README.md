@@ -7,9 +7,9 @@
 - Bachelor of Engineering (Chemical) (Honours) | The University of Adelaide (_Feb 2014 - Dec 2016_)
 
 ## Projects
-[Project 1: FIFA21 Data Cleaning & EDA](https://github.com/FarihaAnis/Portfolio/blob/main/FIFA21%20Data%20Cleaning%20%26%20EDA.ipynb)
+[Project 1: FIFA21 Data Preproceesing & EDA](https://github.com/FarihaAnis/Portfolio/blob/main/FIFA21%20Data%20Cleaning%20%26%20EDA.ipynb)
 
-The FIFA21 dataset, sourced from Kaggle, provides comprehensive player information from the FIFA series soccer simulation video game released by Electronic Arts in October 2020. With data on 18,980 players and 77 attributes including player ID, age, nationality, club affiliation, and performance metrics, this dataset serves as a valuable resource for in-depth analysis. In this project, I will conduct an Exploratory Data Analysis (EDA) focusing on various data types, address issues like missing data and outliers, and perform necessary data preprocessing steps to unlock valuable insights within the virtual soccer world of FIFA21.
+Delving into the FIFA21 dataset sourced from Kaggle, this project explores a comprehensive repository of player attributes from the popular soccer simulation video game released by Electronic Arts. With information on nearly 19,000 players encompassing various demographics, performance metrics, and in-game statistics, the objective is to perform comprehensive data preprocessing and Exploratory Data Analysis (EDA). Through meticulous handling of missing values, outlier detection, data encoding, and numerical and categorical analysis, the aim is to unlock valuable insights into player characteristics, distribution patterns, and factors influencing gameplay dynamics. By scrutinizing the dataset's intricacies, the goal is to provide a holistic understanding of the virtual soccer world depicted in FIFA21, facilitating informed decisions and further exploration in the realm of sports analytics.
 
 [Project 2: Classification Models for Predicting FIFA 21 Players' Overall Ratings (OVA)](https://github.com/FarihaAnis/Portfolio/blob/main/Classification%20Models%20for%20Predicting%20FIFA%2021%20Players'%20Overall%20Ratings%20(OVA).ipynb)
 
