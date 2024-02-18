@@ -9,7 +9,7 @@
 ## Projects
 [Project 1: Data Preparation and Cleaning - Data Science Job Posting on Glassdoor](https://github.com/FarihaAnis/Portfolio/blob/103e481535188b60106a93a885fccb6d5d4a95f6/Data%20Preparation%20and%20Cleaning%20-%20Data%20Science%20Job%20Posting%20on%20Glassdoor.ipynb)
 
-This data cleaning project aims to prepare 'Data Science Job Posting on Glassdoor' dataset, which was obtained from Kaggle, for further analysis. The dataset contains information about job postings, including job titles, salaries, company ratings, locations, and other attributes. The dataset requires extensive data cleaning, which includes addressing issues such as duplicating values, standardizing job titles, extracting relevant information from descriptions, cleaning salary data, and more. The cleaned dataset will serve as the foundation for subsequent data analysis and modeling tasks in the field of data science and human resources.
+The FIFA21 dataset, sourced from Kaggle, provides comprehensive player information from the FIFA series soccer simulation video game released by Electronic Arts in October 2020. With data on 18,980 players and 77 attributes including player ID, age, nationality, club affiliation, and performance metrics, this dataset serves as a valuable resource for in-depth analysis. In this report, we will conduct an Exploratory Data Analysis (EDA) focusing on various data types, address issues like missing data and outliers, and perform necessary data preprocessing steps to unlock valuable insights within the virtual soccer world of FIFA21.
 
 ## Work Experience
 **Production Associate @ Biocon Sdn. Bhd. (_2020 - 2023_)**
