@@ -11,6 +11,10 @@
 
 The FIFA21 dataset, sourced from Kaggle, provides comprehensive player information from the FIFA series soccer simulation video game released by Electronic Arts in October 2020. With data on 18,980 players and 77 attributes including player ID, age, nationality, club affiliation, and performance metrics, this dataset serves as a valuable resource for in-depth analysis. In this report, we will conduct an Exploratory Data Analysis (EDA) focusing on various data types, address issues like missing data and outliers, and perform necessary data preprocessing steps to unlock valuable insights within the virtual soccer world of FIFA21.
 
+[Project 2: Classification Models for Predicting FIFA 21 Players' Overall Ratings (OVA)](https://github.com/FarihaAnis/Portfolio/blob/main/FIFA21%20Data%20Cleaning%20%26%20EDA.ipynb)
+
+This classification project aims to categorize FIFA21 players into their Overall (OVA) categories using machine learning techniques. The project involves the exploration of three different classification models: Decision Tree, K-Nearest Neighbors (KNN), and Gaussian Naive Bayes. Through a rigorous process of hyperparameter tuning and evaluation, the study compares the effectiveness of manual tuning, guided by domain knowledge, with grid search methods across these models. Additionally, the project incorporates K-fold cross-validation to assess model robustness and select the optimal K-fold value. The findings highlight the significance of hyperparameter selection and model evaluation techniques in achieving accurate classification results, offering insights into the trade-offs between manual and automated tuning approaches in different model contexts.
+
 ## Work Experience
 **Production Associate @ Biocon Sdn. Bhd. (_2020 - 2023_)**
 - Ensure batch records are reviewed and closed in compliance with procedures for product release.
