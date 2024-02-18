@@ -7,7 +7,7 @@
 - Bachelor of Engineering (Chemical) (Honours) | The University of Adelaide (_Feb 2014 - Dec 2016_)
 
 ## Projects
-[Project 1: FIFA21 Data Preproceesing & EDA](https://github.com/FarihaAnis/Portfolio/blob/main/FIFA21%20Data%20Cleaning%20%26%20EDA.ipynb)
+[Project 1: FIFA21 Data Preproceesing & EDA](https://github.com/FarihaAnis/Portfolio/blob/main/FIFA21%20Data%20Preprocessing%20&%20EDA.ipynb)
 
 Delving into the FIFA21 dataset sourced from Kaggle, this project explores a comprehensive repository of player attributes from the popular soccer simulation video game released by Electronic Arts. With information on nearly 19,000 players encompassing various demographics, performance metrics, and in-game statistics, the objective is to perform comprehensive data preprocessing and Exploratory Data Analysis (EDA). Through meticulous handling of missing values, outlier detection, data encoding, and numerical and categorical analysis, the aim is to unlock valuable insights into player characteristics, distribution patterns, and factors influencing gameplay dynamics. By scrutinizing the dataset's intricacies, the goal is to provide a holistic understanding of the virtual soccer world depicted in FIFA21, facilitating informed decisions and further exploration in the realm of sports analytics.
 
