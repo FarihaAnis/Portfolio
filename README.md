@@ -23,7 +23,7 @@ This project focuses on analyzing and forecasting Malaysia's Consumer Price Inde
 
 This project analyzes Dataset A, containing daily store transactions including member numbers, dates, and items purchased. After thorough exploration and preparation for association rule mining, key insights like top-selling items and transaction trends are revealed. Leveraging the Apriori algorithm, association rules are generated based on frequent itemsets, with recommendations provided to optimize sales and customer satisfaction by strategically positioning related items within the store layout.
 
-[Project 5: Clustering Analysis using K-Means](https://github.com/FarihaAnis/Portfolio/blob/main/Association%20Rule%20Mining.ipynb)
+[Project 5: Clustering Analysis using K-Means](https://github.com/FarihaAnis/Portfolio/blob/main/Clustering%20Analysis%20using%20K-Means.ipynb)
 
 This project's main goal is to analyze a collection of COVID-19-related tweets using machine learning techniques for topic identification. By understanding the topics people discuss in relation to COVID-19, valuable insights into public perceptions, sentiments, and responses to the pandemic can be gained. The K-means clustering algorithm is applied to group similar tweets together. Two vectorization methods, TF-IDF and Bag of Words (BOW), are used to prepare the text data for clustering. After evaluating the performance of these models, K-means with TF-IDF vectorization emerges as the most effective in creating well-defined clusters. This project also highlights the importance of tuning hyperparameters and choosing the right combination of algorithms and vectorization techniques for text data analysis.
 
