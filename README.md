@@ -25,7 +25,7 @@ This project analyzes Dataset A, containing daily store transactions including m
 
 [Project 5: Clustering Analysis using K-Means](https://github.com/FarihaAnis/Portfolio/blob/main/Clustering%20Analysis%20using%20K-Means.ipynb)
 
-This project's main goal is to analyze a collection of COVID-19-related tweets using machine learning techniques for topic identification. By understanding the topics people discuss in relation to COVID-19, valuable insights into public perceptions, sentiments, and responses to the pandemic can be gained. The K-means clustering algorithm is applied to group similar tweets together. Two vectorization methods, TF-IDF and Bag of Words (BOW), are used to prepare the text data for clustering. After evaluating the performance of these models, K-means with TF-IDF vectorization emerges as the most effective in creating well-defined clusters. This project also highlights the importance of tuning hyperparameters and choosing the right combination of algorithms and vectorization techniques for text data analysis.
+This project presents a concise exploration of clustering analysis using the K-Means algorithm. It covers the essential steps from data preparation, including normalization and exploratory data analysis (EDA), to visualizing text data frequencies. The focus is on applying K-Means to identify meaningful patterns and clusters within the dataset, showcasing the algorithm's effectiveness in revealing insights from data.
 
 ## Work Experience
 **Production Associate @ Biocon Sdn. Bhd. (_2020 - 2023_)**
