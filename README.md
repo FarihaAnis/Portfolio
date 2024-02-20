@@ -29,24 +29,27 @@ This project presents a concise exploration of clustering analysis using the K-M
 
 ## Work Experience
 **Production Associate @ Biocon Sdn. Bhd. (_2020 - 2023_)**
-- Ensure batch records are reviewed and closed in compliance with procedures for product release.
-- Investigate and address any non-conformances found during batch record review.
-- Review and manage documentation for introducing insulins into new markets.
-- Maintain cGMP standards in assembly and packing areas through regular inspections.
-- Contribute to Document Simplification project to improve production processes and reduce risks and costs.
-- Handle revisions to Standard Operating Procedures and Equipment Operating Procedures for packing operations.
-- Serve as a Subject Matter Expert for Batch Records during audits.
-- Manage the issuance, reconciliation, and archiving of cGMP documents used by the packing department.
+- Reviewed and closed batch records during assembly and packing stages, ensuring compliance with Good Documentation Practice, Standard Operating Procedures, and Equipment Operating Procedures.
+- Participated in investigations of non-conformances, implementing effective corrective and preventive actions to maintain product quality and regulatory compliance.
+- Managed documentation for change control, risk assessment, and batch records introduction for insulins into new markets, utilizing Trackwise and adhering to regulatory requirements and Quality Management Systems.
+- Maintained cGMP standards in assembly and packing areas through regular walk-throughs and proactive quality assurance measures.
+- Contributed to the Document Simplification project by analyzing and improving production process documentation, minimizing risks, costs, and wastage while enhancing finished product quality.
+- Handled revisions of Standard Operating Procedures and Equipment Operating Procedures for packing operations, ensuring adherence to Change Control procedures using Trackwise.
+- Served as the Subject Matter Expert for Batch Records during both internal and external audits, providing in-depth knowledge and facilitating compliance.
+- Managed the issuance, reconciliation, and archiving of cGMP documents used by the packing department, ensuring accurate record-keeping and regulatory compliance.
 
 **Trainee – Quality Control Analytical @ Biocon Sdn. Bhd. (_2020 - 2022_)**
-- Manage procedure revisions (SOP and EOP) through Change Control procedures.
-- Conduct periodic reviews of SOPs, EOPs, and QCA specifications to ensure document quality.
-- Handle logbook issuance and archiving following SOP for the QCA department.
+- Handled any revision of procedures for Standard Operating Procedure (SOP) and Equipment Operating Procedure (EOP) throughout Change Control procedures.
+- Responsible to perform Periodical Review for SOP, EOP and QCA Specifications to ensure the legibility and validity of the documents.
+- Responsible to handle issuance and archiving of logbooks as per SOP for QCA department.
 
 **Management Trainee @ Upskill Learning PLT (_2018-2019_)**
 - Coordinated learning sessions and company’s public programs of Working at Height, Chemical Safety, Hazard Identification, Occupational Safety & Health Committee and Neuro-Linguistic Programming.
 - Responsible to engage in recruiting potential customers through phone call and social media posting.
 - Engaged with Neuro-Linguistic Programming (NLP) to enhance communication skills through visual, auditory and kinaesthetic approaches.
 
-
+**Internship @ Ain Medicare Sdn. Bhd. (_2015-2016_)**
+- Actively involved in company expansion project by collecting information from stakeholders for User Requirement Specifications (URS), preparing gantt chart and presenting URS update during weekly meeting.
+- Liaised with industrial waste management consultant to design wastewater treatment plant in compliance with ISO 14001.
+- Learnt on technical operation and maintenance of Water Treatment Plant and unit operation of distillation towers, heat exchangers, Air Handling Unit and furnaces.
 
