@@ -84,32 +84,32 @@ join employees as emp on cust.salesRepEmployeeNumber = emp.employeeNumber;
 -- Results:
 
 /*
-Customer_Name					|Contact|Salesperson_name|Position |
---------------------------------+-------+----------------+----------
+Customer_Name			|Contact    |Salesperson_name    |Position |
+--------------------------------+-----------+--------------------+----------
 Mini Gifts Distributors Ltd.	|4155551450|Leslie		 |Sales Rep|
-Mini Wheels Co.					|6505555787|Leslie		 |Sales Rep|
-Technics Stores Inc.			|6505556809|Leslie		 |Sales Rep|
-Corporate Gift Ideas Co.	    |6505551386|Leslie		 |Sales Rep|
-The Sharp Gifts Warehouse		|4085553659|Leslie		 |Sales Rep|
-Signal Collectibles Ltd.		|4155554312|Leslie		 |Sales Rep|
-Signal Gift Stores				|7025551838|Leslie		 |Sales Rep|
-Toys4GrownUps.com				|6265557265|Leslie		 |Sales Rep|
-Boards & Toys Co.				|3105552373|Leslie		 |Sales Rep|
+Mini Wheels Co.			|6505555787|Leslie		 |Sales Rep|
+Technics Stores Inc.		|6505556809|Leslie		 |Sales Rep|
+Corporate Gift Ideas Co.	|6505551386|Leslie		 |Sales Rep|
+The Sharp Gifts Warehouse	|4085553659|Leslie		 |Sales Rep|
+Signal Collectibles Ltd.	|4155554312|Leslie		 |Sales Rep|
+Signal Gift Stores		|7025551838|Leslie		 |Sales Rep|
+Toys4GrownUps.com		|6265557265|Leslie		 |Sales Rep|
+Boards & Toys Co.		|3105552373|Leslie		 |Sales Rep|
 Collectable Mini Designs Co.	|7605558146|Leslie		 |Sales Rep|
-Men 'R' US Retailers, Ltd.		|2155554369|Leslie		 |Sales Rep|
-West Coast Collectables Co.		|3105553722|Leslie		 |Sales Rep|
-Cambridge Collectables Co.		|6175555555|Julie 		 |Sales Rep|
-Online Mini Collectables		|6175557555|Julie 		 |Sales Rep|
-Mini Creations Ltd.				|5085559555|Julie 		 |Sales Rep|
-Classic Gift Ideas, Inc			|2155554695|Julie 		 |Sales Rep|
-Collectables For Less Inc.		|6175558555|Julie 		 |Sales Rep|
-Diecast Collectables			|6175552555|Julie 		 |Sales Rep|
-Diecast Classics Inc.			|2155551555|Steve 		 |Sales Rep|
-Auto-Moto Classics Inc.			|6175558428|Steve 		 |Sales Rep|
-Marta's Replicas Co.			|6175558555|Steve 		 |Sales Rep|
-Gifts4AllAges.com				|6175559555|Steve 		 |Sales Rep|
+Men 'R' US Retailers, Ltd.	|2155554369|Leslie		 |Sales Rep|
+West Coast Collectables Co.	|3105553722|Leslie		 |Sales Rep|
+Cambridge Collectables Co.	|6175555555|Julie 		 |Sales Rep|
+Online Mini Collectables	|6175557555|Julie 		 |Sales Rep|
+Mini Creations Ltd.		|5085559555|Julie 		 |Sales Rep|
+Classic Gift Ideas, Inc		|2155554695|Julie 		 |Sales Rep|
+Collectables For Less Inc.	|6175558555|Julie 		 |Sales Rep|
+Diecast Collectables		|6175552555|Julie 		 |Sales Rep|
+Diecast Classics Inc.		|2155551555|Steve 		 |Sales Rep|
+Auto-Moto Classics Inc.		|6175558428|Steve 		 |Sales Rep|
+Marta's Replicas Co.		|6175558555|Steve 		 |Sales Rep|
+Gifts4AllAges.com		|6175559555|Steve 		 |Sales Rep|
 Online Diecast Creations Co.	|6035558647|Steve 		 |Sales Rep|
-FunGiftIdeas.com				|5085552555|Steve 		 |Sales Rep|
+FunGiftIdeas.com		|5085552555|Steve 		 |Sales Rep|
 
  *Execute the code for the full results*
 */
@@ -174,9 +174,9 @@ where cust.customerName = 'Atelier graphique';
 /*
 Customer name    |Cheque Number|Date	  |Amount  |
 -----------------+-------------+----------+--------+
-Atelier graphique|HQ336336	   |2004-10-19|6066.78 |
-Atelier graphique|JM555205	   |2003-06-05|14571.44|
-Atelier graphique|OM314933	   |2004-12-18|1676.14 |
+Atelier graphique|HQ336336     |2004-10-19|6066.78 |
+Atelier graphique|JM555205     |2003-06-05|14571.44|
+Atelier graphique|OM314933     |2004-12-18|1676.14 |
 
 */
 
