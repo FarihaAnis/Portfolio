@@ -1,5 +1,5 @@
 # Sales and Inventory Management Analysis	
-[Database Setup]([Database Setup | ](https://github.com/FarihaAnis/Portfolio/blob/main/Sales%26Inventory%20Database%20Setup.sql)
+([Database Setup](https://github.com/FarihaAnis/Portfolio/blob/main/Sales%26Inventory%20Database%20Setup.sql)
 
 **1.** Count the Number of employees that work in the same city in descending order.
 
