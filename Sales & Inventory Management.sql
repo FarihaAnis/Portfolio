@@ -16,15 +16,15 @@ order by Number_of_Employee desc;
 
 /*
 
-Number_of_Employee|City    		  |
+Number_of_Employee|City    	  |
 ------------------+---------------+
-2   			  |  Boston		  |
-2   			  |  NYC  		  |
-2   			  |  Tokyo		  |
-2   			  |  London		  |
-4   			  |  Sydney		  |
-5   			  |  Paris 		  |
-6   			  |  San Francisco|
+2   		  |  Boston	  |
+2   		  |  NYC  	  |
+2   		  |  Tokyo	  |
+2   		  |  London	  |
+4   		  |  Sydney	  |
+5   		  |  Paris 	  |
+6   		  |  San Francisco|
  
  */
 
@@ -50,8 +50,8 @@ where creditLimit > (select avg(creditLimit) from customers);
 
 /*
 
-customerName					|creditLimit|
-------------------------------------------------+-----------+
+customerName					|creditLimit    |
+------------------------------------------------+---------------+
 Signal Gift Stores				|71800.00 	|
 Australian Collectors, Co.			|117300.00	|
 La Rochelle Gifts				|118200.00	|
