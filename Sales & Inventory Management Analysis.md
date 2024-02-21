@@ -1,6 +1,4 @@
-# Sales and Inventory Management
-## File Name: Sales & Inventory Management.sql
-	
+# Sales and Inventory Management Analysis	
 
 **1.** Count the Number of employees that work in the same city in descending order.
 
