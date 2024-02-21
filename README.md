@@ -27,7 +27,7 @@ This project analyzes Dataset A, containing daily store transactions including m
 
 This project presents a concise exploration of clustering analysis using the K-Means algorithm. It covers the essential steps from data preparation, including normalization and exploratory data analysis (EDA), to visualizing text data frequencies. The focus is on applying K-Means to identify meaningful patterns and clusters within the dataset, showcasing the algorithm's effectiveness in revealing insights from data.
 
-[Project 6: Sales and Inventory Management System Analysis, Tools: SQL]
+[Project 6: Sales and Inventory Management System Analysis, Tools: SQL](https://github.com/FarihaAnis/Portfolio/blob/main/Sales%20&%20Inventory%20Management%20Analysis.md)
 
 [Database Setup | ](https://github.com/FarihaAnis/Portfolio/blob/main/Sales%26Inventory%20Database%20Setup.sql)
 [Analysis](https://github.com/FarihaAnis/Portfolio/blob/main/Sales%20%26%20Inventory%20Management.sql)
