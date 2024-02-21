@@ -51,26 +51,26 @@ where creditLimit > (select avg(creditLimit) from customers);
 /*
 
 customerName					|creditLimit|
---------------------------------+-----------+
+------------------------------------------------+-----------+
 Signal Gift Stores				|71800.00 	|
-Australian Collectors, Co.		|117300.00	|
+Australian Collectors, Co.			|117300.00	|
 La Rochelle Gifts				|118200.00	|
 Baane Mini Imports				|81700.00 	|
-Mini Gifts Distributors Ltd.	|210500.00	|
+Mini Gifts Distributors Ltd.			|210500.00	|
 Land of Toys Inc.				|114900.00	|
-Euro+ Shopping Channel			|227600.00	|
-Danish Wholesale Imports		|83400.00 	|
-Saveley & Henriot, Co.			|123900.00	|
-Dragon Souveniers, Ltd.			|103800.00	|
+Euro+ Shopping Channel				|227600.00	|
+Danish Wholesale Imports			|83400.00 	|
+Saveley & Henriot, Co.				|123900.00	|
+Dragon Souveniers, Ltd.				|103800.00	|
 Muscle Machine Inc				|138500.00	|
-Diecast Classics Inc.			|100600.00	|
-Technics Stores Inc.			|84600.00 	|
+Diecast Classics Inc.				|100600.00	|
+Technics Stores Inc.				|84600.00 	|
 Handji Gifts& Co				|97900.00	|
 Herkku Gifts					|96800.00 	|
-Daedalus Designs Imports		|82900.00 	|
-La Corne D'abondance, Co.		|84300.00 	|
+Daedalus Designs Imports			|82900.00 	|
+La Corne D'abondance, Co.			|84300.00 	|
 Gift Depot Inc.					|84300.00 	|
-Osaka Souveniers Co.			|81200.00	|
+Osaka Souveniers Co.				|81200.00	|
  
  *Execute the code for the full results*
  */
@@ -128,9 +128,9 @@ Number_of_Customers|Salesperson_name|
 -------------------+----------------+
 12				   |Leslie			|
 6				   |Julie			|
-6				   |Steve      		|
-7				   |Foon Yue		|
-8				   |George          |
+6				   |Steve      			|
+7				   |Foon Yue			|
+8				   |George         	        |
 6				   |Loui			|
 7				   |Gerard			|
 10				   |Pamela			|
