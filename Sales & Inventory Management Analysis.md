@@ -1,23 +1,21 @@
-/*
-	Sales and Inventory Management
-	File Name: Sales & Inventory Management.sql
+# Sales and Inventory Management
+## File Name: Sales & Inventory Management.sql
 	
-*/
 
+**1.** Count the Number of employees that work in the same city in descending order.
 
-/*Count the Number of employees that work in the same city in descending order.*/
+````sql
 select count(employeeNumber) as Number_of_Employee, city as City
 from employees
 join offices on employees.officeCode = offices.officeCode
 group by offices.city
 order by Number_of_Employee desc;
+````
 
--- Results:
-
-/*
+**Results:**
 
 Number_of_Employee|City    	  |
-------------------+---------------+
+------------------|---------------|
 2   		  |  Boston	  |
 2   		  |  NYC  	  |
 2   		  |  Tokyo	  |
@@ -26,32 +24,28 @@ Number_of_Employee|City    	  |
 5   		  |  Paris 	  |
 6   		  |  San Francisco|
  
- */
 
-/*Find the average credit limit of customer.*/
+**2.** Find the average credit limit of customer.
+```sql
 select avg(creditLimit) from customers;
+```
 
--- Results:
-
-/*
-
+**Results:**
 Average Credit Limit|
---------------------+
+--------------------|
  67659.016393       |
  
- */
 
-/*List the customer name that have credit limit more than average credit limit.*/
+**3.** List the customer name that have credit limit more than average credit limit.
+```sql
 select customerName, creditLimit 
 from customers
 where creditLimit > (select avg(creditLimit) from customers);
+```
 
--- Results:
-
-/*
-
+**Results:**
 customerName					|creditLimit    |
-------------------------------------------------+---------------+
+------------------------------------------------|---------------|
 Signal Gift Stores				|71800.00 	|
 Australian Collectors, Co.			|117300.00	|
 La Rochelle Gifts				|118200.00	|
@@ -73,19 +67,18 @@ Gift Depot Inc.					|84300.00 	|
 Osaka Souveniers Co.				|81200.00	|
  
  *Execute the code for the full results*
- */
 
-/*List of customer name served by the sales representative*/
+
+**4.** List of customer name served by the sales representative.
+```sql
 select cust.customerName as Customer_Name, cust.phone as Contact,
 emp.firstName as Salesperson_name , emp.jobTitle as Position
 from customers as cust
 join employees as emp on cust.salesRepEmployeeNumber = emp.employeeNumber;
-
--- Results:
-
-/*
+```
+**Results:**
 Customer_Name			|Contact    |Salesperson_name    |Position |
---------------------------------+-----------+--------------------+----------
+--------------------------------|-----------|--------------------|----------|
 Mini Gifts Distributors Ltd.	|4155551450|Leslie		 |Sales Rep|
 Mini Wheels Co.			|6505555787|Leslie		 |Sales Rep|
 Technics Stores Inc.		|6505556809|Leslie		 |Sales Rep|
@@ -112,20 +105,19 @@ Online Diecast Creations Co.	|6035558647|Steve 		 |Sales Rep|
 FunGiftIdeas.com		|5085552555|Steve 		 |Sales Rep|
 
  *Execute the code for the full results*
-*/
 
-/*Count the number of customers served by each the sales representative in the company*/
+
+**5.** Count the number of customers served by each the sales representative in the company.
+```sql
 select count(cust.customerNumber) as Number_of_Customer, 
 emp.firstName as Salesperson_name
 from customers as cust
 join employees as emp on cust.salesRepEmployeeNumber = emp.employeeNumber
 group by Salesperson_name;
-
--- Results:
-
-/*
+```
+**Results:**
 Number_of_Customers|Salesperson_name|
--------------------+----------------+
+-------------------|----------------|
 12				   |Leslie			|
 6				   |Julie			|
 6				   |Steve      			|
@@ -140,27 +132,25 @@ Number_of_Customers|Salesperson_name|
 5				   |Peter			|
 5				   |Mami			|
 6				   |Martin			|
-*/
 
 
-/*List the sales person that serve more than 10 customers.*/
+
+**6.** List the sales person that serve more than 10 customers.
+```sql
 select emp.firstName as Salesperson_name,
 count(cust.customerNumber) as Number_of_Customer
 from customers as cust
 join employees as emp on cust.salesRepEmployeeNumber = emp.employeeNumber
 group by Salesperson_name
 having count(cust.customerNumber)> 10;
-
--- Results:
-
-/*
+```
+**Results:**
 Salesperson_name|Number_of_Customer|
-----------------+------------------+
+----------------|------------------|
 Leslie			|		12		   |
 
-*/
-
-/*Find the payment made by customer named Atelier graphique and output is as follows*/
+**7.** Find the payment made by customer named Atelier graphique.
+```sql
 select cust.customerName as 'Customer name',
 pay.checkNumber as 'Cheque Number', 
 pay.paymentDate as Date,
@@ -168,28 +158,24 @@ amount as Amount
 from payments as pay 
 join customers as cust on pay.customerNumber = cust.customerNumber
 where cust.customerName = 'Atelier graphique';
+```
 
--- Results:
-
-/*
+**Results:**
 Customer name    |Cheque Number|Date	  |Amount  |
------------------+-------------+----------+--------+
+-----------------|-------------|----------|--------|
 Atelier graphique|HQ336336     |2004-10-19|6066.78 |
 Atelier graphique|JM555205     |2003-06-05|14571.44|
 Atelier graphique|OM314933     |2004-12-18|1676.14 |
 
-*/
-
-/*Assuming attribute MSRP in products table is the sales price of each product. List the product that have profit >50*/
+**8.** Assuming attribute MSRP in products table is the sales price of each product. List the product that have profit >50.
+```sql
 select productName, (MSRP-buyPrice) as Profit
 from products
 having Profit > 50;
-
--- Results:
-
-/*
+```
+**Results:**
 productName               | Profit |
---------------------------+--------+
+--------------------------|--------|
 1952 Alpine Renault 1300  | 115.72 |
 2003 Harley-Davidson Eagle| 102.64 |
 1972 Alfa Romeo GTA       |  50.32 |
@@ -223,21 +209,19 @@ HMS Bounty                |  50.69 |
 1982 Camaro Z28           |  54.62 |
 ATA: B757-300             |  59.32 |
 
-*/
 
-/*The management want to send the invoice with total amount (calculate based quantiy order * price) for each order to customer as follows*/
+**9.** The management want to send the invoice with total amount (calculate based quantiy order * price) for each order to customer.
+```sql
 select cust.customerName as 'Customer Name', det.orderNumber as 'Order Number', 
 SUM(det.quantityOrdered*det.priceEach) as 'Total Amount'
 from orderdetails as det 
 join orders as ord on det.orderNumber = ord.orderNumber
 join customers as cust on ord.customerNumber = cust.customerNumber
 group by cust.customerName, det.orderNumber;
-
--- Results:
-
-/*
+```
+**Results:**
 Customer Name                | Order Number  |TotalAmount|
------------------------------+---------------+-----------+
+-----------------------------|---------------|-----------|
 Atelier graphique            | 10123         | 14571.44  |
 Atelier graphique            | 10298         | 6066.78   |
 Atelier graphique            | 10345         | 1676.14   |
@@ -339,20 +323,18 @@ Diecast Classics Inc.       | 10422         | 5849.44   |
 Technics Stores Inc.        | 10140         | 38675.13  |
 
 *Execute the code for the full results*
-*/
 
 
-/*Find the subtotal of quantity in stock for each product line according to product vendor*/
+**10.** Find the subtotal of quantity in stock for each product line according to product vendor.
+```sql
 select productLine as Line, productVendor as Vendor, SUM(quantityInStock) as Stock
 from products
 group by productLine, productVendor
 order by productLine;
-
--- Results:
-
-/*
+```
+**Results:**
 Line           | Vendor                   | Stock |
----------------+--------------------------+-------+
+---------------|--------------------------|-------|
 Classic Cars   | Autoart Studio Design    | 68    |
 Classic Cars   | Carousel DieCast Legends | 17673 |
 Classic Cars   | Classic Metal Creations  | 34415 |
@@ -418,20 +400,18 @@ Vintage Cars   | Second Gear Diecast      | 4710  |
 Vintage Cars   | Studio M Art Models      | 22342 |
 Vintage Cars   | Unimax Art Galleries     | 3913  |
 Vintage Cars   | Welly Diecast Productions| 2724  |
-*/
 
-
-/*Rank the Product buyPrice according to the vendor*/
+**11.** Rank the Product buyPrice according to the vendor.
+ ```sql
  select productVendor, buyPrice, 
  rank() over (partition by productVendor order by buyPrice) as Price_Rank
  from products
  order by productVendor, Price_Rank;
+ ```
+ **Results:**
  
- -- Results:
- 
- /*
  productVendor          | buyPrice | Price_Rank |
------------------------+----------+------------+
+-----------------------|----------|------------|
 Autoart Studio Design  | 26.30    | 1          |
 Autoart Studio Design  | 34.00    | 2          |
 Autoart Studio Design  | 34.17    | 3          |
@@ -530,108 +510,3 @@ Unimax Art Galleries  | 33.30  | 1          |
 Unimax Art Galleries  | 36.23  | 2          |
 Unimax Art Galleries  | 39.83  | 3          |
 Unimax Art Galleries  | 49.24  | 4          |
-
- 
- /*
- productVendor          | buyPrice | Price_Rank |
------------------------+----------+------------+
-Autoart Studio Design  | 26.30    | 1          |
-Autoart Studio Design  | 34.00    | 2          |
-Autoart Studio Design  | 34.17    | 3          |
-Autoart Studio Design  | 34.25    | 4          |
-Autoart Studio Design  | 58.48    | 5          |
-Autoart Studio Design  | 60.86    | 6          |
-Autoart Studio Design  | 61.34    | 7          |
-Autoart Studio Design  | 95.34    | 8          |
-Carousel DieCast Legends | 15.91 | 1          |
-Carousel DieCast Legends | 24.92 | 2          |
-Carousel DieCast Legends | 29.18 | 3          |
-Carousel DieCast Legends | 46.53 | 4          |
-Carousel DieCast Legends | 48.64 | 5          |
-Carousel DieCast Legends | 51.09 | 6          |
-Carousel DieCast Legends | 60.78 | 7          |
-Carousel DieCast Legends | 67.56 | 8          |
-Carousel DieCast Legends | 82.34 | 9          |
-Classic Metal Creations | 20.61  | 1          |
-Classic Metal Creations | 25.98  | 2          |
-Classic Metal Creations | 32.33  | 3          |
-Classic Metal Creations | 37.49  | 4          |
-Classic Metal Creations | 47.25  | 5          |
-Classic Metal Creations | 65.96  | 6          |
-Classic Metal Creations | 66.74  | 7          |
-Classic Metal Creations | 69.93  | 8          |
-Classic Metal Creations | 98.30  | 9          |
-Classic Metal Creations | 98.58  | 10         |
-Exoto Designs          | 43.26  | 1          |
-Exoto Designs          | 50.51  | 2          |
-Exoto Designs          | 52.66  | 3          |
-Exoto Designs          | 55.70  | 4          |
-Exoto Designs          | 57.54  | 5          |
-Exoto Designs          | 64.58  | 6          |
-Exoto Designs          | 66.92  | 7          |
-Exoto Designs          | 69.78  | 8          |
-Exoto Designs          | 72.82  | 9          |
-Gearbox Collectibles   | 24.14  | 1          |
-Gearbox Collectibles   | 26.72  | 2          |
-Gearbox Collectibles   | 49.00  | 3          |
-Gearbox Collectibles   | 53.90  | 4          |
-Gearbox Collectibles   | 62.11  | 5          |
-Gearbox Collectibles   | 62.16  | 6          |
-Gearbox Collectibles   | 72.56  | 7          |
-Gearbox Collectibles   | 73.49  | 8          |
-Gearbox Collectibles   | 101.51 | 9          |
-Highway 66 Mini Classics | 32.37 | 1          |
-Highway 66 Mini Classics | 33.02 | 2          |
-Highway 66 Mini Classics | 37.32 | 3          |
-Highway 66 Mini Classics | 47.10 | 4          |
-Highway 66 Mini Classics | 57.01 | 5          |
-Highway 66 Mini Classics | 59.33 | 6          |
-Highway 66 Mini Classics | 68.29 | 7          |
-Highway 66 Mini Classics | 68.99 | 8          |
-Highway 66 Mini Classics | 83.51 | 9          |
-Min Lin Diecast        | 34.35  | 1          |
-Min Lin Diecast        | 46.91  | 2          |
-Min Lin Diecast        | 48.81  | 3          |
-Min Lin Diecast        | 49.05  | 4          |
-Min Lin Diecast        | 51.15  | 5          |
-Min Lin Diecast        | 51.61  | 6          |
-Min Lin Diecast        | 91.92  | 7          |
-Min Lin Diecast        | 93.89  | 8          |
-Motor City Art Classics | 22.57 | 1          |
-Motor City Art Classics | 32.77 | 2          |
-Motor City Art Classics | 33.30 | 3          |
-Motor City Art Classics | 53.93 | 4          |
-Motor City Art Classics | 54.40 | 5          |
-Motor City Art Classics | 60.62 | 6          |
-Motor City Art Classics | 68.80 | 7          |
-Motor City Art Classics | 84.76 | 8          |
-Motor City Art Classics | 85.68 | 9          |
-Red Start Diecast      | 21.75  | 1          |
-Red Start Diecast      | 33.61  | 2          |
-Red Start Diecast      | 33.97  | 3          |
-Red Start Diecast      | 56.76  | 4          |
-Red Start Diecast      | 60.74  | 5          |
-Red Start Diecast      | 77.27  | 6          |
-Red Start Diecast      | 91.02  | 7          |
-Second Gear Diecast   | 16.24  | 1          |
-Second Gear Diecast   | 29.34  | 2          |
-Second Gear Diecast   | 36.27  | 3          |
-Second Gear Diecast   | 56.13  | 4          |
-Second Gear Diecast   | 57.46  | 5          |
-Second Gear Diecast   | 83.05  | 6          |
-Second Gear Diecast   | 95.59  | 7          |
-Second Gear Diecast   | 103.42 | 8          |
-Studio M Art Models   | 23.14  | 1          |
-Studio M Art Models   | 24.26  | 2          |
-Studio M Art Models   | 27.06  | 3          |
-Studio M Art Models   | 31.92  | 4          |
-Studio M Art Models   | 32.95  | 5          |
-Studio M Art Models   | 34.21  | 6          |
-Studio M Art Models   | 43.30  | 7          |
-Studio M Art Models   | 58.33  | 8          |
-Unimax Art Galleries  | 33.30  | 1          |
-Unimax Art Galleries  | 36.23  | 2          |
-Unimax Art Galleries  | 39.83  | 3          |
-Unimax Art Galleries  | 49.24  | 4          |
-
-*Execute the code for the full results*
