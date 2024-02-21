@@ -29,9 +29,9 @@ This project presents a concise exploration of clustering analysis using the K-M
 
 [Project 6: Sales and Inventory Management System Analysis, Tools: SQL]
 [Database Setup](https://github.com/FarihaAnis/Portfolio/blob/main/Sales%26Inventory%20Database%20Setup.sql)
-[Analysis]()
+[Analysis](https://github.com/FarihaAnis/Portfolio/blob/main/Sales%20%26%20Inventory%20Management.sql)
 
-This SQL project lays the groundwork for a sales_inventory database, setting up tables for customers, employees, offices, orders, product lines, and products, enriched with sample data and interconnected through foreign key constraints. It leverages SQL queries for in-depth analysis of sales and inventory management, including employee distribution, customer credit limits, sales performance, product profitability, and inventory levels. This foundation supports critical insights into operational trends and strategic decision-making within the sales inventory management system.
+This SQL project establishes a foundational sales_inventory database designed for Sales and Inventory Management. The script meticulously sets up tables to manage customers, employees, offices, orders, product lines, and products, incorporating sample data and defining relationships through foreign key constraints. By employing SQL queries, the project delves into analyzing employee distributions, customer credit limits, sales activities, product profitability, invoicing, and inventory stock levels. It provides crucial insights into sales trends, customer relationships, and inventory control, thereby enabling strategic decisions and enhancing operational effectiveness within a comprehensive sales inventory management system.
 
 
 ## Work Experience
