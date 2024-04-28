@@ -1,5 +1,11 @@
 # Sales and Inventory Management Analysis	
 
+## Entity Relationship Diagram (ERD)
+
+![DBMS ER diagram (UML notation) - Page 1](https://github.com/FarihaAnis/Portfolio/assets/143730968/65092078-5737-4e26-ac0c-75ae41e2c3c1)
+
+
+
 [Database Setup](https://github.com/FarihaAnis/Portfolio/blob/main/Sales%26Inventory%20Database%20Setup.sql)
 
 **1.** Count the Number of employees that work in the same city in descending order.
